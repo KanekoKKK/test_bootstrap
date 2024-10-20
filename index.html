@@ -9,6 +9,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
@@ -23,13 +24,12 @@
             <div class="collapse navbar-collapse fw-bold" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-2">
                     <li class="nav-item"><a class="nav-link" aria-current="page" href="#hero">ホーム</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#feature">特徴</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#showcases">詳細</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#price">プラン</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#showcases">チーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gyalary">ギャラリー</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">メンバー</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#member">代表者</a></li>
                 </ul>
-                <a class="btn btn-dark btn-sm text-white" href="#">無料で始める</a>
+                <a class="btn btn-dark btn-sm text-white" href="#">体験入部</a>
             </div>
         </div>
     </nav>
@@ -39,36 +39,31 @@
         <div class="container overflow-hidden">
             <div class="row flex-lg-row-reverse align-items-center">
                 <div class="col-lg-6" data-aos="zoom-in">
-                    <img src="https://doodleipsum.com/700x394/flat?i=41f017cf42bb4f905a48613ec87b613b"
+                    <img src="./image_top.jpg"
                         class="img-fluid">
                 </div>
                 <div class="col-lg-6 text-light" data-aos="fade-up">
-                    <p class="badge bg-dark text-danger mb-1">HTMLだけでコーディング</p>
-                    <h1>Bootstrap超入門</h1>
-                    <p class="lead">Webプログラミング初心者がこのページを作れるようになる！</p>
+                    <p class="badge bg-dark mb-1">名城大学理工学部自治会</p>
+                    <h1>名城大学ロボット倶楽部</h1>
+                    <p class="lead">気軽にものづくり 作るほどタノシイ ロボット倶楽部！</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FEATURE -->
-    <section class="bg-light py-4" id="feature">
+    <section class="bg-dark py-4" id="feature">
         <div class="container overflow-hidden" data-aos="zoom-in">
-            <div class="row text-center">
-                <div class="col-md-4 mb-3">
-                    <div class="fs-1"><i class="bi bi-film text-danger"></i></div>
-                    <h5>物語りがある</h5>
-                    <p class="text-secondary">「実用的に使える」または「新しい体験ができる」をテーマに、必要最小限の技術を使ってストーリーを展開し伏線を回収するコンテンツです。</p>
-                </div>
-                <div class="col-md-4 mb-3">
+            <div class="row text-center text-danger">
+                <div class="col">
                     <div class="fs-1"><i class="bi bi-tools text-danger"></i></div>
-                    <h5>新しいものづくり</h5>
-                    <p class="text-secondary">「ハードウェアだけでなく、プログラミングやデータサイエンスも１つのツールとして活用する「新しい時代のものづくり」です。</p>
+                    <h5>製作</h5>
+                    <p class="text-secondary">Lチカからロボット製作、オリジナルゲームまで、様々なモノを創っています!</p>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="fs-1"><i class="bi bi-award text-danger"></i></div>
-                    <h5>モノにする</h5>
-                    <p class="text-secondary">技術要素をステップバイステップで学びながら、演習で試行錯誤を行い、自ら考え成果物を作り上げるスタイルです。</p>
+                <div class="col">
+                    <div class="fs-1"><i class="bx bx-edit-alt"></i></div>
+                    <h5>学び</h5>
+                    <p class="text-secondary">上級生が開く講習会やチーム活動を通し、技術だけでなく、たくさんのことを学ぶことができます！</p>
                 </div>
             </div>
         </div>
@@ -79,35 +74,35 @@
         <div class="container overflow-hidden">
             <div class="row mb-5 align-items-center">
                 <div class="col-lg-6 order-lg-1" data-aos="zoom-in-right">
-                    <img class="img-fluid"
-                        src="https://doodleipsum.com/700x394/hand-drawn?i=0e05d2d124e0a86b24727ce6006b739a">
+                    <img class="img-fluid rounded shadow-lg"
+                        src="./image_robomastar.jpg">
                 </div>
                 <div class="col-lg-6 order-lg-2" data-aos="fade-right">
-                    <span class="display-3 text-danger">01</span>
-                    <h3>物語りのあるコンテンツ</h3>
-                    <p>網羅的な説明が書かれたコンテンツではなく、映画のようにこころを動かすコンテンツを目指しています。シナリオ作りから検証を重ねて作成しています。</p>
+                    <span class="display-3 text-danger">ロボマス部門</span>
+                    <h3>高速で球を撃ち合い相手を倒す</h3>
+                    <p>東海地区の大学生・高専生を中心に学校の垣根を超え交流、技術の連携をし、RoboMasterと呼ばれる国際大会への出場。2024年はRMULベスト6を達成</p>
                 </div>
             </div>
             <div class="row mb-5 align-items-center" data-aos="zoom-in-left">
                 <div class="col-lg-6 order-lg-2">
-                    <img class="img-fluid"
-                        src="https://doodleipsum.com/700x394/hand-drawn?i=4a51d1ffc4e6797c11a5b4c7cc33cda6">
+                    <img class="img-fluid rounded shadow-lg"
+                        src="./image_tane.JPG">
                 </div>
                 <div class="col-lg-6 order-lg-1" data-aos="fade-left">
-                    <span class="display-3 text-danger">02</span>
-                    <h3>新しい時代のものづくり</h3>
-                    <p>数十年の間に「ものづくり製品」から「ウェブサービス」へ時代が一変しましたが、更に時代は変化し続けます。画面の中だけの世界ではなく、リアルな世界に作用するものにこだわっています。</p>
+                    <span class="display-3 text-danger">種コン部門</span>
+                    <h3>厳しい条件のもとゴールを目指す</h3>
+                    <p>種子島ロケットコンテストCansat自立制御部門に出場予定。上空30メートルから落とされ、着地してから自動でゴールを目指す。2024年度から新体制で活動開始。</p>
                 </div>
             </div>
             <div class="row mb-5 align-items-center" data-aos="zoom-in-right">
                 <div class="col-lg-6 order-lg-1">
-                    <img class="img-fluid"
-                        src="https://doodleipsum.com/700x394/hand-drawn?i=0293217a2126d91159f5a6717396cbe4">
+                    <img class="img-fluid rounded shadow-lg"
+                        src="./image_jisyu.JPG">
                 </div>
                 <div class="col-lg-6 order-lg-2" data-aos="fade-right">
-                    <span class="display-3 text-danger">03</span>
-                    <h3>ステップバイステップでモノにする</h3>
-                    <p>「ものものテック」では創業以来、毎年多数のリアルなハンズオンを企業・自治体・大学・各種イベント等で実施しています。リアルな教育でのエッセンスや最適化された難易度で皆さんの学びを加速します。
+                    <span class="display-3 text-danger">自主制作部門</span>
+                    <h3>自由気ままに楽しく制作</h3>
+                    <p>カードリーダーなどの小さな機械やゲーム制作など、伝統あるロボット倶楽部の豊富な設備を使用し、興味の赴くままま自由に活動する。
                     </p>
                 </div>
             </div>
@@ -119,75 +114,99 @@
         <div class="container overflow-hidden" data-aos="zoom-in">
             <div class="row text-center">
                 <div class="col">
-                    <h3 class="py-5">あなたの物語を実現しよう！</h3>
-                    <p class="lead">ほぼCSSやJavaScriptは記述せずに、HTMLのコーディングだけでランディングページを作れます。</p>
-                    <p class="lead py-3"><a href="#" class="btn btn-lg btn-outline-light">学習を始める</a></p>
+                    <h3 class="py-5">新入部員募集中！</h3>
+                    <p class="lead">知識や技術がなくても大丈夫！学部学科問いません。まずは体験入部から！</p>
+                    <p class="lead py-3"><a href="#" class="btn btn-lg btn-outline-light">入部する</a></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PRICE -->
-    <section class="bg-light py-5" id="price">
-        <div class="container overflow-hidden">
-            <div class="row text-center">
-                <h3 class="mb-4">プランを比較</h3>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col" data-aos="zoom-in" data-aos-delay="0">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-header p-3">
-                            <h4 class="my-0 fw-normal">お試しプラン</h4>
-                        </div>
+    <!-- GYALARY -->
+    <section class="bg-light py-5" id="gyalary">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-3 mb-4 h-">
+                    <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title fs-1"><span class="h4">¥</span>0<span
-                                    class="h4 text-secondary fw-light">
-                                    /月</span></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
-                                <li class="text-secondary text-decoration-line-through">全ての学習コンテンツ閲覧</li>
-                                <li class="text-secondary text-decoration-line-through">講師による講義</li>
-                                <li class="text-secondary text-decoration-line-through">メンターによるサポート</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-danger">すぐに試す</button>
+                            <img src="./image1.jpg" class="card-img-top" alt="Image 1">
                         </div>
                     </div>
                 </div>
-                <div class="col" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="card mb-4 shadow-sm border-danger">
-                        <div class="card-header py-3 border-dangerv bg-danger">
-                            <h4 class="my-0 fw-normal text-light">個人プラン</h4>
-                        </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title fs-1"><span class="h4">¥</span>0<span
-                                    class="h4 text-secondary fw-light">
-                                    /月（今だけ特別！）</span></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
-                                <li><i class="bi-check-lg text-success"></i>全ての学習コンテンツ閲覧</li>
-                                <li class="text-secondary text-decoration-line-through">講師による講義</li>
-                                <li class="text-secondary text-decoration-line-through">メンターによるサポート</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-danger">登録・ログイン</button>
+                            <img src="./image2.jpg" class="card-img-top" alt="Image 2">
                         </div>
                     </div>
                 </div>
-                <div class="col" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">法人プラン</h4>
-                        </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title fs-1"><span class="h4">¥</span>50,000〜<span
-                                    class="h4 text-secondary fw-light"> /月</span>
-                            </h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
-                                <li><i class="bi-check-lg text-success"></i>全ての学習コンテンツ閲覧</li>
-                                <li><i class="bi-check-lg text-success"></i>講師による講義</li>
-                                <li><i class="bi-check-lg text-success"></i>メンターによるサポート</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-danger">ご相談ください</button>
+                            <img src="./image3.jpg" class="card-img-top" alt="Image 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image4.jpg" class="card-img-top" alt="Image 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image5.jpg" class="card-img-top" alt="Image 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image6.jpg" class="card-img-top" alt="Image 6">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image7.jpg" class="card-img-top" alt="Image 7">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image8.jpg" class="card-img-top" alt="Image 8">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image9.jpg" class="card-img-top" alt="Image 9">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image10.jpg" class="card-img-top" alt="Image 10">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image11.jpg" class="card-img-top" alt="Image 11">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./image12.jpg" class="card-img-top" alt="Image 12">
                         </div>
                     </div>
                 </div>
@@ -212,13 +231,13 @@
                             <h2 class="accordion-header" id="heading1">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                    <p>Q. コンテンツは最後まで無料で学習可能なのでしょうか？</p>
+                                    <p>Q. 活動人数はどのくらいですか？</p>
                                 </button>
                             </h2>
                             <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                                 data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body">
-                                    A. 登録するだけで最後まで無料で学習できます。
+                                    A. 現在活動しているのはおよそ20名程です。女性部員も活躍しております。
                                 </div>
                             </div>
                         </div>
@@ -226,13 +245,13 @@
                             <h2 class="accordion-header" id="heading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    <p>Q. 登録にはお金がかかりますか？</p>
+                                    <p>Q. 部費はどのくらいかかりますか？</p>
                                 </button>
                             </h2>
                             <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
                                 data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body">
-                                    A. 登録は無料です。入会金や年会費などもかかりません。
+                                    A. 年1回5000円です。別途チーム活動費をいただく場合もあります。
                                 </div>
                             </div>
                         </div>
@@ -240,13 +259,13 @@
                             <h2 class="accordion-header" id="heading3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    <p>Q. このページは何ですか？</p>
+                                    <p>Q. 活動頻度はどのくらいですか</p>
                                 </button>
                             </h2>
                             <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
                                 data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body">
-                                    A. 「Bootstrap超入門」コンテンツのサンプルページです。学ぶことでこのページが最終的に作れるようになります。
+                                    A. 週一回オンライン部会(土曜20:30~)21:00があります。現在チーム活動は週1回です。(種コン部門:木曜13:00~16:30　ロボマス部門:土or日曜(不定期))
                                 </div>
                             </div>
                         </div>
@@ -256,51 +275,41 @@
         </div>
     </section>
 
-    <!-- TEAM -->
-    <section class="bg-light p-5" id="team">
+    <!-- MEMBER -->
+    <section class="bg-light p-5" id="member">
         <div class="container overflow-hidden">
             <div class="row text-center">
-                <h3 class="mb-4">講師／メンター</h3>
+                <h3 class="mb-4">代表者</h3>
             </div>
             <div class="row text-center">
-                <div class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-4 mb-3" data-aos="fade-up" data-aos-delay="0">
                     <div class="bg-white border shadow p-4 h-100">
                         <img class="rounded-circle mb-3"
                             src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=3c872b28d4577889c194cbc98b672696"
                             width="80">
-                        <p class="text-secondary fw-bold">佐藤 太郎</p>
-                        <p class="border-bottom">チーフエンジニア</p>
-                        <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                        <p class="text-secondary fw-bold">金子</p>
+                        <p class="border-bottom">情報工B1</p>
+                        <p>2024年度学生責任者</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 mb-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="bg-white border shadow p-4 h-100">
                         <img class="rounded-circle mb-3"
                             src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=8de3b58cab71e0ce7d1e1081418edb62"
                             width="80">
-                        <p class="text-secondary fw-bold">鈴木 太郎</p>
-                        <p class="border-bottom">エンジニア</p>
-                        <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                        <p class="text-secondary fw-bold">吉井</p>
+                        <p class="border-bottom">機械工M1</p>
+                        <p>Robomaster部門リーダー</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 mb-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="bg-white border shadow p-4 h-100">
                         <img class="rounded-circle mb-3"
                             src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=58e15545cbaaccdde1e619aa57b6f85f"
                             width="80">
-                        <p class="text-secondary fw-bold">高橋 花子</p>
-                        <p class="border-bottom">デザイナー</p>
-                        <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-3" data-aos="fade-up" data-aos-delay="300">
-                    <div class="bg-white border shadow p-4 h-100">
-                        <img class="rounded-circle mb-3"
-                            src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=be176fd7d38de78c85dbfba873eb723a"
-                            width="80">
-                        <p class="text-secondary fw-bold">田中 太郎</p>
-                        <p class="border-bottom">アシスタント</p>
-                        <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                        <p class="text-secondary fw-bold">横山</p>
+                        <p class="border-bottom">機械工B4</p>
+                        <p>種子島ロケット部門リーダー</p>
                     </div>
                 </div>
             </div>
@@ -312,7 +321,7 @@
         <div class="container">
             <div class="row">
                 <div class="col"><a href="https://monomonotech.jp/" class="text-decoration-none text-light">&copy;
-                        ものものテック</a></div>
+                        名城大学ロボット俱楽部</a></div>
                 <div class="col text-end"><a href="#" class="text-decoration-none text-light"><i
                             class="bi bi-chevron-up"></i> Back to top</a></div>
             </div>
